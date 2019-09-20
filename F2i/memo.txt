@@ -1,0 +1,59 @@
+AWS
+
+type api cloud = interface graphique, sdk ou ligne de cmd
+au moins 3 zones de dispo pour 1 region
+
+https://706869268099.signin.aws.amazon.com/console
+
+role dans AWS => autorisations qu'on affecte a un programme ou une instance
+
+IAM => authentification
+
+S3 =>  service de stockage dans aws
+	le compartiment doit être unique dans la région
+	replication possible entre 2 buckets de regions differentes
+	versionning
+
+https://smm86.signin.aws.amazon.com/console 
+
+EC2 => creation de VM
+	1 instance = 750h/mois non stop (2 instances => 2 semaines...)
+	
+Storage Gateway
+ECS elastic container services
+ECR elastic container registry => dockerhub privé
+EKS elastic kubernetes services
+
+cloud9 => IDE
+
+AWS Elastic Beanstalk => déployer, superviser et faire évoluer une application de façon rapide et simple
+ 
+AWS propose 2 type de LB (logiciel et réseau)*
+heidiSQL
+
+Cours AWS => whizlabs
+
+
+
+user1-at-706869268099
+ZNFaS5MmjePbYxh3O0MWAeTEdNDsl9wXmJQteFz8Chs=
+
+git clone https://git-codecommit.eu-west-3.amazonaws.com/v1/repos/smm-commit
+
+Dans le fichier yaml, si java: corretto8 => ce sera pour EC2 sinon mettre java:jdk8
+
+Chaque region a un agent AWS différent
+git clone https://git-codecommit.eu-central-1.amazonaws.com/v1/repos/codecommit-pipeline-repo
+
+***********************************************************************************************
+AZURE
+its5@ief2i.fr/F2i2019!
+azure AD = IAM dans AWS
+
+
+smmregistry.azurecr.io
+
+https://docs.microsoft.com/fr-fr/azure/devops-project/azure-devops-project-java?toc=https%3A%2F%2Fdocs.microsoft.com%2Ffr-fr%2Fazure%2Fdevops-project%2Ftoc.json&bc=https%3A%2F%2Fdocs.microsoft.com%2Ffr-fr%2Fazure%2Fbread%2Ftoc.json
+
+
+
